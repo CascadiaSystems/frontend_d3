@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
 import { Features } from "./components/features";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import { Part1 } from "./components/part1";
+import { Part2 } from "./components/part2";
+import { Part3 } from "./components/part3";
+import { Part4 } from "./components/part4";
+import { Part5 } from "./components/part5";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -25,15 +24,14 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
+      <Navigation />      
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Part1 data={landingPageData.Part1} />
+      <Part2 data={landingPageData.Part2} />
+      <Part3 data={landingPageData.Part3} />
+      <Part4 data={landingPageData.Part4} />
+      <Part5 data={landingPageData.Part5} />            
+      <Footer data={landingPageData.Footer} />
     </div>
   );
 };

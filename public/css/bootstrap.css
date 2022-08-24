@@ -1587,6 +1587,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.section-background {
+  background-color: #5898FF1A !important;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
