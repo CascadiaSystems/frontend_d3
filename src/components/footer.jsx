@@ -1,7 +1,10 @@
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+
 export const Footer = (props) => {  
   return (    
       <div className="footer-content">
-        <div className="footer-part1">
+        <div className="row footer-part1">
           <div className="col-xs-12 col-md-2 footer-part2">
             <div className="footer-header-font-black">
               Logo
@@ -130,16 +133,26 @@ export const Footer = (props) => {
           </div>        
         </div>
         <div className="footer-part9">
+          <InputGroup className="mb-3">
+            <Form.Control
+              placeholder="Receive email updates"
+              aria-label="Subscribe"
+              aria-describedby="basic-addon2">                
+              </Form.Control>
+          </InputGroup>
         </div>
-        <div>
-          <div className="row">
-            <div className="footer-content-font-black col-xs-12 col-md-6">                          
-              @ 2022 Sophon Protocal              
+        <div className="row footer-part10">
+            <div className="footer-content-font-black col-xs-12 col-md-2">
+              @ 2022 Sophon Protocal
             </div>
             <div className="col-xs-12 col-md-6">
             </div>
-          </div>
-          
+            <div className="footer-content-font-black col-xs-12 col-md-2">
+              Privacy Policy
+            </div>
+            <div className="footer-content-font-black col-xs-12 col-md-2">
+              Terms of Use
+            </div>
         </div>
       </div>          
   )

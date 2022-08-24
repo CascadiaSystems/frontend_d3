@@ -31,7 +31,7 @@ const App = () => {
       <Part3 data={landingPageData.Part3} />
       <Part4 data={landingPageData.Part4} />
       <Part5 data={landingPageData.Part5} />            
-      <Footer data={landingPageData.Footer} />
+      <Footer data={landingPageData.Footer} />      
     </div>
   );
 };

@@ -789,8 +789,24 @@ label {
   flex-direction: column;
   justify-content: space-between;
 }
-.footer-part9{    
+.footer-part9{      
+  margin-top: 50px;
+  margin-left: 420px;
+  width:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section-background {
+  background-color: #5898FF1A !important;
+}
+.section-background-nav {
+  background-color: transparent !important;
+}
+.footer-part10{    
+  margin-top: 70px;
   margin-left: 120px;
+  margin-bottom: 0px;
 }
 .footer-header-font-black {
   font-family: 'Manrope';
